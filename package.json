@@ -1,0 +1,18 @@
+{
+  "name": "mrflatbedsserver",
+  "version": "1.0.0",
+  "description": "mrflatbeds node server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Daniel Mil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.3",
+    "path": "^0.12.7"
+  }
+}
